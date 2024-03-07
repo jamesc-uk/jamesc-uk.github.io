@@ -2,11 +2,11 @@
 
 * {
    box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
     background-color: rgb(29, 53, 53);
 }
 
@@ -44,7 +44,7 @@ body {
 
 .logo {
     font-size: 105px;
-    padding-left: 30px;
+    padding-left: 15%;
     color: rgb(29, 53, 53);
     text-decoration: none;
     transition: 200ms;
@@ -71,6 +71,7 @@ body {
     padding: 0px 50px;
     width: 50%;
     color: rgb(29, 53, 53);
+    gap: 5%;
 }
 
 a.links {
@@ -102,11 +103,10 @@ a.links:hover::after {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 30vh;
     text-align: center;
     font-size: 95px;
     position: sticky;
-    top: 80px;
 }
 
 .subname {
@@ -115,7 +115,6 @@ a.links:hover::after {
     font-size: 35px;
     position: sticky;
     top: 0;
-    margin-top: 35px;
     width: 100%;
     text-align: center;
 }
@@ -138,8 +137,7 @@ a.links:hover::after {
 
 .arrow {
     filter: drop-shadow(0 0 0.75rem rgb(90, 235, 97));
-    color: whitesmoke;
-    width: 100%;  
+    color: whitesmoke; 
     text-align: center;
     font-size: 95px;
     top: 95px;
@@ -162,12 +160,12 @@ a.links:hover::after {
 }
 
 .footer {
-    opacity: 0.8;
+    opacity: 0.5;
     justify-content: center;
     display: flex;
-    width: 100%;
+    width: auto;
     background-color: rgb(29, 53, 53);;
-    padding: 15px;
+    padding: 1em;
     font-size: 32px;
 }
 
