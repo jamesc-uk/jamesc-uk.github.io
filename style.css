@@ -334,3 +334,12 @@ a.links:hover::after {
         transform: translateY(0);
     }
 }
+
+
+/*Fic-link*/
+
+.center-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
